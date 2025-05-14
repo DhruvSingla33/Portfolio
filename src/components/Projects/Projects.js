@@ -4,9 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import Task from "../../Assets/Projects/Task.png";
+import DevMinds from "../../Assets/Projects/DevMinds.png";
+import BooksHive from "../../Assets/Projects/BooksHive.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -23,29 +23,32 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={DevMinds}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              title="DevMinds"
+              description="DevMinds is an innovative platform designed to help students and mentors grow through coding, visualization, and collaboration. It features a powerful algorithm visualizer that explains popular algorithms step-by-step with real-time animations. Users can solve problems using a Python-based online judge with instant feedback and performance tracking. The platform also includes a live HTML/CSS/JS compiler for quick frontend prototyping directly in the browser. A built-in developer community fosters learning through discussions, posts, and peer interaction."
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={BooksHive}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="BooksHive"
+              description="BooksHive is an all-in-one e-book platform built for collaborative and personalized learning.
+It offers a hybrid recommendation system combining content-based and user-based filtering.
+Real-time chat enables smooth communication between teachers and students.
+Role-based access ensures tailored experiences for admins, teachers, and students.
+Additional features like email notifications, ratings, and teacher profiles enrich the platform."
+              ghLink="https://github.com/DhruvSingla33/Books_hive/tree/main"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Task}
               isBlog={false}
               title="Task Manager"
               description="The Task Management App is a simple yet powerful application designed to help users manage their tasks efficiently. Users can add tasks, assign due dates, set priorities, and mark tasks as completed. The tasks are displayed in a visually organized card format. This app is perfect for users who want to keep track of their tasks on a daily basis."
